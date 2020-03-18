@@ -17,8 +17,8 @@ function Technologies() {
           <div className="Section1Text">
             <h2>Languages</h2>
             <p>
-              We are specialize in <b>Python</b>, <b>Javascript</b>,<br /> and{" "}
-              <b>Node JS</b>
+              We are specialize in <b>Python</b>, <b>Javascript</b>,{" "}
+              <b>Tensorflow</b> and <b>Node JS</b>
             </p>
           </div>
         </div>
