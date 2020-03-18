@@ -238,6 +238,29 @@ nav ul li *:hover {
     font-size: 1rem;
     margin-top: 3%;
   }
+
+  /*Footer*/
+
+  .FooterContent {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .FooterContent * {
+  }
+
+  .ButtonIcon {
+  }
+
+  .ButtonIcon * {
+    color: #dc143c;
+    width: 75px;
+    margin-top: -8px;
+  }
 }
 
 /****** TABs *****/

@@ -20,6 +20,14 @@ function Home() {
     }
   };
 
+  function HandleContact() {
+    window.scrollTo({
+      top: 4000,
+      left: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <div className="Godsbody">
       <Fragment>
@@ -31,7 +39,11 @@ function Home() {
                 We help startups productionizing Artificial Intelligent
                 applications.
               </h5>
-              <Button variant="contained" color="secondary">
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={HandleContact}
+              >
                 Hire Us
               </Button>
             </div>

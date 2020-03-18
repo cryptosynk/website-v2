@@ -6,25 +6,22 @@ import { Button } from "@material-ui/core";
 
 function Header() {
   function HandleServices() {
-    console.log("we got a click");
     window.scrollTo({
-      top: 1400,
+      top: 1300,
       left: 0,
       behavior: "smooth"
     });
   }
 
   function HandleTechnologies() {
-    console.log("we got a click");
     window.scrollTo({
-      top: 2100,
+      top: 2000,
       left: 0,
       behavior: "smooth"
     });
   }
 
   function HandleContact() {
-    console.log("we got a click");
     window.scrollTo({
       top: 4000,
       left: 0,

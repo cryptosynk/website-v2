@@ -254,6 +254,7 @@
     color: rgba(36, 36, 36, 0.75);
     position: relative;
     top: 10px;
+    width: 350px;
   }
 }
 
@@ -318,8 +319,7 @@
     text-align: left;
     margin-top: 50px;
     margin-bottom: auto;
-
-    width: 340px;
+    width: 450px;
   }
 }
 
@@ -429,5 +429,6 @@
     color: rgba(36, 36, 36, 0.75);
     position: relative;
     top: 10px;
+    width: 450px;
   }
 }
