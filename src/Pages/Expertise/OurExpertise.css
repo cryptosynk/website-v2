@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+.OurExpertiseBackground {
+  background-position-x: left;
+  background-size: 110%;
+}
+
+.OurExpertise {
+  align-content: center;
+  font-family: Roboto;
+  text-align: center;
+  margin-top: -100px;
+
+  background: url("../../Images/Background/overlay2.svg") no-repeat;
+  background-position-x: left;
+  background-size: 100v 100%;
+  padding-bottom: 100px;
+}
+
+.ExpertiseHeader h5 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.ExpertiseBody {
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+}
+/*
+.ContentBox {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border: 1px solid;
+  margin: 5%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(0, 0, 0, 0.1);
+  height: 140px;
+
+  transition: border-color 0.2s linear;
+}
+
+.ContentBox:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.ContentBox .ContentImg * {
+  margin-top: -5px;
+
+  width: 120px;
+}
+
+.ContentBox .ContentInfo * {
+  font-family: Roboto;
+
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1rem;
+  margin-top: 8px;
+}*/
+
+/****** Phones *****/
+
+@media screen and (max-width: 767px) {
+  .OurExpertise {
+    margin-top: -325px;
+  }
+  .ExpertiseBody {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+
+    padding: 0%;
+  }
+
+  .ExpertiseData {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .ContentBox {
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    border: 1px solid;
+    margin: 5%;
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 140px;
+    width: 90%;
+
+    transition: border-color 0.2s linear;
+  }
+
+  .ContentBox:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .ContentBox .ContentImg * {
+    margin-top: -5px;
+
+    width: 120px;
+  }
+
+  .ContentBox .ContentInfo * {
+    font-family: Roboto;
+
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+}
+
+/****** TABs *****/
+
+@media screen and (min-width: 768px) {
+  .ExpertiseBody {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+  }
+
+  .ContentBox {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border: 1px solid;
+    margin: 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 140px;
+
+    transition: border-color 0.2s linear;
+  }
+
+  .ContentBox:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .ContentBox .ContentImg * {
+    margin-top: -5px;
+
+    width: 120px;
+  }
+
+  .ContentBox .ContentInfo * {
+    font-family: Roboto;
+
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+}
+
+/****** PCs *****/
+
+@media screen and (min-width: 1280px) {
+  .OurExpertise {
+    margin-top: -200px;
+  }
+  .ExpertiseBody {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+  }
+
+  .ContentBox {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border: 1px solid;
+    margin: 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 140px;
+
+    transition: border-color 0.2s linear;
+  }
+
+  .ContentBox:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .ContentBox .ContentImg * {
+    margin-top: -5px;
+
+    width: 120px;
+  }
+
+  .ContentBox .ContentInfo * {
+    font-family: Roboto;
+
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+}

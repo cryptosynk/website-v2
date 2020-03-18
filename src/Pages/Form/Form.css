@@ -1,0 +1,108 @@
+.BaseContainer {
+  width: 80%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  height: 500px;
+}
+
+.content {
+  padding-right: 20px;
+}
+
+.content .image * {
+  width: 200px;
+  display: none;
+}
+.ContentImage {
+  padding-left: 20px;
+}
+
+.ContentImage * {
+  position: relative;
+  top: 75px;
+  width: 100%;
+}
+
+.FormButton {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: 2px;
+  margin-top: 7%;
+}
+
+/****** Phones *****/
+
+@media screen and (max-width: 767px) {
+  .BaseContainer {
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 100%;
+
+    height: 750px;
+  }
+  .ContentImage {
+    position: relative;
+    top: -550px;
+    padding: 0px;
+  }
+  .content {
+    position: relative;
+    top: 200px;
+  }
+}
+
+/****** TABs *****/
+
+@media screen and (min-width: 768px) {
+  .BaseContainer {
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 100%;
+
+    height: 750px;
+  }
+  .ContentImage {
+    position: relative;
+    top: -550px;
+    padding: 0px;
+  }
+  .content {
+    position: relative;
+    top: 200px;
+  }
+}
+
+/****** PCs *****/
+
+@media screen and (min-width: 1280px) {
+  .BaseContainer {
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    height: 500px;
+  }
+  .ContentImage {
+    top: 0px;
+    padding-left: 20px;
+  }
+
+  .content {
+    top: 0px;
+
+    padding-right: 20px;
+  }
+}

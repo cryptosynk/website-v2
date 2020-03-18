@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+.Technologies {
+  align-content: center;
+  font-family: Roboto;
+  text-align: center;
+  background: url("../../Images/Background/overlay3.svg") no-repeat;
+  background-position-x: left;
+  background-size: 100v 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.Technologies h5 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.Section2 {
+  position: relative;
+  top: 160px;
+}
+
+.Section2 h2 {
+  font-family: Roboto;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 3.125rem;
+}
+
+.Section2 p {
+  text-align: left;
+  font-size: 1.5625rem;
+
+  color: rgba(0, 0, 0, 0.75);
+  position: relative;
+  top: 20px;
+}
+
+.TechnologiesMain {
+  margin-top: 20px;
+
+  width: 80%;
+  margin: 20px auto 0px;
+}
+
+/* TEXT SECTION 01 */
+.Section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.TechnologiesMain .Section1 .Section1Img {
+  width: 400px;
+  left: 50px;
+  top: 40px;
+  position: relative;
+}
+
+.TechnologiesMain .Section1 .Section1Text {
+  text-align: left;
+  margin-top: 155px;
+  margin-bottom: auto;
+}
+
+.TechnologiesMain .Section1 .Section1Text h2 {
+  font-family: Roboto;
+  text-align: left;
+  color: rgba(36, 36, 36, 0.9);
+  font-size: 3rem;
+}
+
+.TechnologiesMain .Section1 .Section1Text p {
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgba(36, 36, 36, 0.75);
+  position: relative;
+  top: 20px;
+}
+
+/* TEXT SECTION 02 */
+.Section2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  top: 100px;
+}
+
+.TechnologiesMain .Section2 .Section2Img {
+  width: 500px;
+  left: 50px;
+  position: relative;
+}
+
+.TechnologiesMain .Section2 .Section2Text {
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: auto;
+}
+
+.TechnologiesMain .Section2 .Section2Text h2 {
+  font-family: Roboto;
+  text-align: left;
+  color: rgba(36, 36, 36, 0.9);
+  font-size: 3rem;
+}
+
+.TechnologiesMain .Section2 .Section2Text p {
+  text-align: left;
+  font-size: 1.5ren;
+  color: rgba(36, 36, 36, 0.75);
+  position: relative;
+  top: 1.5rem;
+}
+
+/* TEXT SECTION 03 */
+.Section3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 225px;
+}
+
+.TechnologiesMain .Section3 .Section3Img {
+  width: 400px;
+  left: 0px;
+  position: relative;
+}
+
+.TechnologiesMain .Section3 .Section3Text {
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.TechnologiesMain .Section3 .Section3Text h2 {
+  font-family: Roboto;
+  text-align: left;
+  color: rgba(36, 36, 36, 0.9);
+  font-size: 3rem;
+}
+
+.TechnologiesMain .Section3 .Section3Text p {
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgba(36, 36, 36, 0.75);
+  position: relative;
+  top: 10px;
+}
+
+/****** Phones *****/
+
+@media screen and (max-width: 767px) {
+  /*Section1*/
+  .Section1 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .TechnologiesMain .Section1 .Section1Img {
+    width: 250px;
+    top: 40px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: auto;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text h2 {
+    font-family: Roboto;
+    text-align: left;
+    color: rgba(36, 36, 36, 0.9);
+    font-size: 2rem;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text p {
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(36, 36, 36, 0.75);
+    position: relative;
+    top: 20px;
+  }
+
+  /*Section2*/
+  .Section2 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .TechnologiesMain .Section2 .Section2Img {
+    width: 300px;
+    top: -180px;
+    left: 20px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text {
+    position: relative;
+
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: auto;
+    top: 140px;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text h2 {
+    font-family: Roboto;
+    text-align: left;
+    color: rgba(36, 36, 36, 0.9);
+    font-size: 2rem;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text p {
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(36, 36, 36, 0.75);
+    position: relative;
+    top: 10px;
+  }
+
+  /*Section3*/
+  .Section3 {
+    display: grid;
+    grid-template-columns: 10%;
+    margin-top: 175px;
+  }
+
+  .TechnologiesMain .Section3 .Section3Img {
+    width: 340px;
+    left: 0px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section3 .Section3Text {
+    position: relative;
+
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+    width: 340px;
+  }
+  .TechnologiesMain .Section3 .Section3Text h2 {
+    font-family: Roboto;
+    text-align: left;
+    color: rgba(36, 36, 36, 0.9);
+    font-size: 2rem;
+  }
+
+  .TechnologiesMain .Section3 .Section3Text p {
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(36, 36, 36, 0.75);
+    position: relative;
+    top: 10px;
+  }
+}
+
+/****** TABs *****/
+
+@media screen and (min-width: 768px) {
+  /*Section1*/
+  .Section1 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .TechnologiesMain .Section1 .Section1Img {
+    width: 250px;
+    top: 40px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: auto;
+  }
+
+  /*Section2*/
+  .Section2 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .TechnologiesMain .Section2 .Section2Img {
+    width: 300px;
+    top: -265px;
+    left: 20px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text {
+    position: relative;
+
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: auto;
+    top: 140px;
+  }
+
+  /*Section3*/
+  .Section3 {
+    display: grid;
+    grid-template-columns: 10%;
+    margin-top: 175px;
+  }
+
+  .TechnologiesMain .Section3 .Section3Img {
+    width: 340px;
+    left: 0px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section3 .Section3Text {
+    position: relative;
+
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+    width: 340px;
+  }
+}
+
+/****** PCs *****/
+
+@media screen and (min-width: 1280px) {
+  /* TEXT SECTION 01 */
+  .Section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .TechnologiesMain .Section1 .Section1Img {
+    width: 400px;
+    left: 50px;
+    top: 40px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text {
+    text-align: left;
+    margin-top: 155px;
+    margin-bottom: auto;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text h2 {
+    font-family: Roboto;
+    text-align: left;
+    color: rgba(36, 36, 36, 0.9);
+    font-size: 3rem;
+  }
+
+  .TechnologiesMain .Section1 .Section1Text p {
+    text-align: left;
+    font-size: 1.5rem;
+    color: rgba(36, 36, 36, 0.75);
+    position: relative;
+    top: 20px;
+  }
+
+  /* TEXT SECTION 02 */
+  .Section2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    top: 100px;
+  }
+
+  .TechnologiesMain .Section2 .Section2Img {
+    width: 500px;
+    left: 50px;
+    top: 0px;
+
+    position: relative;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: auto;
+    top: 000px;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text h2 {
+    font-family: Roboto;
+    text-align: left;
+    color: rgba(36, 36, 36, 0.9);
+    font-size: 3rem;
+  }
+
+  .TechnologiesMain .Section2 .Section2Text p {
+    text-align: left;
+    font-size: 1.5ren;
+    color: rgba(36, 36, 36, 0.75);
+    position: relative;
+    top: 1.5rem;
+  }
+
+  /* TEXT SECTION 03 */
+  .Section3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 225px;
+  }
+
+  .TechnologiesMain .Section3 .Section3Img {
+    width: 400px;
+    left: 0px;
+    position: relative;
+  }
+
+  .TechnologiesMain .Section3 .Section3Text {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .TechnologiesMain .Section3 .Section3Text h2 {
+    font-family: Roboto;
+    text-align: left;
+    color: rgba(36, 36, 36, 0.9);
+    font-size: 3rem;
+  }
+
+  .TechnologiesMain .Section3 .Section3Text p {
+    text-align: left;
+    font-size: 1.5rem;
+    color: rgba(36, 36, 36, 0.75);
+    position: relative;
+    top: 10px;
+  }
+}

@@ -1,0 +1,256 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+
+  background: url("../Images/Background/overlay.svg") no-repeat;
+  background-position-x: right;
+  background-size: 50%;
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding-top: 15px;
+  padding-left: 15px;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Logo * {
+  width: 275px;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+  padding-right: 3%;
+}
+
+nav ul li {
+  float: left;
+  padding-left: 50px;
+  padding-top: 4px;
+}
+
+nav ul li *:hover {
+  color: #dc143c;
+}
+
+/*BODY*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+.MainSection {
+  margin-top: -77px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+/*MAIn SVG*/
+
+.MainSVG {
+  z-index: 1;
+  margin-top: 150px;
+  margin-left: 5%;
+}
+
+.TextBody {
+  margin-top: 225px;
+  margin-left: 25%;
+}
+
+.TextBody h1 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.TextBody h5 {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.26rem;
+  margin-top: 3%;
+}
+
+.TextBody button {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: 2px;
+  margin-top: 7%;
+}
+
+/** FOOTER SECTION !!! **/
+.Footer {
+  background: url("../Images/Background/footer.svg") no-repeat;
+  height: 100px;
+}
+
+.FooterContent {
+  width: 80%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  padding-top: 40px;
+}
+
+.FooterContent * {
+}
+
+.ButtonIcon {
+}
+
+.ButtonIcon * {
+  color: #dc143c;
+  width: 75px;
+  margin-top: -8px;
+}
+
+/*  Doing Mobile and big stuff   */
+
+@media only screen and (min-width: 1500px) {
+  html {
+  }
+  body {
+    /* use only for IE */
+    zoom: 1.25;
+    zoom: 125%;
+    -ms-zoom: 1.25;
+    -webkit-zoom: 1.25;
+    -moz-transform: scale(1.25, 1.25);
+    transform-origin: center top;
+    /* -ms-transform-origin: left top; */
+  }
+}
+
+@media only screen and (min-width: 3400px) {
+  html {
+  }
+  body {
+    /* use only for IE */
+    zoom: 1.5;
+
+    zoom: 150%;
+    -ms-zoom: 1.5;
+    -webkit-zoom: 1.5;
+    -moz-transform: scale(1.5, 1.5);
+    transform-origin: center top;
+
+    /* -ms-transform-origin: left top; */
+  }
+}
+
+@media only screen and (min-width: 4500px) {
+  html {
+  }
+  body {
+    /* use only for IE */
+    zoom: 1.75;
+    zoom: 175%;
+    -ms-zoom: 1.75;
+    -webkit-zoom: 1.75;
+    -moz-transform: scale(1.75, 1.75);
+    transform-origin: center top;
+    /* -ms-transform-origin: left top; */
+  }
+}
+
+/****** Phones *****/
+
+@media screen and (max-width: 767px) {
+  .Header {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 15px;
+    padding-left: 0px;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Logo {
+    margin: 0% auto;
+  }
+
+  .Logo * {
+    width: 300px;
+  }
+  nav {
+    display: none;
+    background-color: greenyellow;
+  }
+
+  /*Body*/
+  .MainSection {
+    margin-top: -100px;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .MainSVG {
+    z-index: 1;
+    margin-top: 25px;
+  }
+
+  .TextBody {
+    margin-top: 175px;
+    margin-left: 14%;
+  }
+}
+
+/****** TABs *****/
+
+@media screen and (min-width: 768px) {
+}
+
+/****** PCs *****/
+
+@media screen and (min-width: 1280px) {
+  .Header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 15px;
+    padding-left: 15px;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Logo * {
+    width: 275px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    float: right;
+    padding-right: 3%;
+  }
+
+  /*Body*/
+
+  .MainSVG {
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 5%;
+  }
+
+  .TextBody h1 {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+}
