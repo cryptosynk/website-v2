@@ -36,9 +36,9 @@ function Home() {
               </Button>
             </div>
           </div>
-          <svg width="750" height="750" className="MainSVG">
-            <image type="image/svg+xml" href={Main} />
-          </svg>
+          <div className="MainSVG">
+            <img className="MainSVGImg" src={Main} alt="MainLogo" />
+          </div>
         </div>
 
         <OurExpertise />
