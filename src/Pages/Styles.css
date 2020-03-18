@@ -21,7 +21,14 @@ body {
   margin: 0 auto;
 }
 
+.Logo {
+  position: relative;
+  right: 15px;
+}
+
 .Logo * {
+  padding: 0px;
+  margin: 0px;
   width: 275px;
 }
 
