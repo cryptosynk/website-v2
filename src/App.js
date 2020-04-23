@@ -5,10 +5,10 @@ import Header from "./Pages/Header.js";
 import Home from "./Pages/Home.js";
 import Footer from "./Pages/Footer.js";
 
+//<Header />
 function App() {
   return (
     <div>
-      <Header />
       <Router>
         <Switch>
           <Route path="/" component={Home} />

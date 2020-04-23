@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "./Styles.css";
 import { Button } from "@material-ui/core";
 
+import Logo from "../Images/logo.png";
 import Main from "../Images/ContentSVGs/OBJECTSB.svg";
 
 import OurExpertise from "./Expertise/OurExpertise.js";
@@ -30,6 +31,25 @@ function Home() {
 
   return (
     <div className="Godsbody">
+      <div className="Header">
+        <div className="Logo">
+          <img src={Logo} alt="cryptosynk Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <Button onClick={() => window.location.replace("#Services")}>Services</Button>
+            </li>
+            <li>
+              <Button onClick={() => window.location.replace("#Technologies")}>Technologies</Button>
+            </li>
+            <li>
+              <Button onClick={() => window.location.replace("#Contact")}>Contact</Button>
+            </li>
+          </ul>
+        </nav>
+      </div >
+
       <Fragment>
         <div className="MainSection">
           <div className="MainText">
@@ -54,9 +74,17 @@ function Home() {
         </div>
 
         <OurExpertise />
-        <Services />
-        <Technologies />
-        <Form />
+
+        <div id="Services" >
+          <Services />
+        </div>
+
+        <div id="Technologies" >
+          <Technologies />
+        </div>
+        <div id="Contact" >
+          <Form />
+        </div>
       </Fragment>
     </div>
   );

@@ -1,6 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
+  scroll-behavior: smooth;
 }
 body {
   width: 100%;
@@ -107,27 +108,38 @@ nav ul li *:hover {
 /** FOOTER SECTION !!! **/
 .Footer {
   background: url("../Images/Background/footer.svg") no-repeat;
+  display: flex;
   height: 100px;
+  justify-content: center;
 }
 
 .FooterContent {
   width: 80%;
-  margin: 0px auto;
+/*  margin: 0px auto;
   display: grid;
   grid-template-columns: 90% 10%;
-  padding-top: 40px;
+  padding-top: 40px;*/
+
+  display: flex;
+    height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
-.FooterContent * {
+.FooterLinks {
+  display: flex;
+  flex-direction: row;
 }
 
 .ButtonIcon {
+  margin-left: 10px;
 }
 
 .ButtonIcon * {
   color: #dc143c;
-  width: 75px;
-  margin-top: -8px;
+  padding-top: -8px;
 }
 
 /*  Doing Mobile and big stuff   */
@@ -254,12 +266,12 @@ nav ul li *:hover {
   }
 
   .ButtonIcon {
+    width: 75px;
+    color: #dc143c;
+    margin-top: -8px;
   }
 
   .ButtonIcon * {
-    color: #dc143c;
-    width: 75px;
-    margin-top: -8px;
   }
 }
 

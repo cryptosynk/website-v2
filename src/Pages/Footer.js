@@ -21,25 +21,27 @@ function Footer() {
         </Typography>
 
         <div className="FooterLinks">
-          <IconButton
-            edge="start"
-            className="ButtonIcon"
-            color="inherit"
-            aria-label="menu"
-            onClick={HandleGitHubIconButton}
-          >
-            <GitHubIcon />
-          </IconButton>
+          <div className="ButtonIcon">
+            <IconButton
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              onClick={HandleGitHubIconButton}
+            >
+              <GitHubIcon />
+            </IconButton>
+          </div>
 
-          <IconButton
-            edge="start"
-            className="ButtonIcon"
-            color="inherit"
-            aria-label="menu"
-            onClick={HandleTwitterIconButton}
-          >
-            <TwitterIcon />
-          </IconButton>
+          <div className="ButtonIcon">
+            <IconButton
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              onClick={HandleTwitterIconButton}
+            >
+              <TwitterIcon />
+            </IconButton>
+          </div>
         </div>
       </div>
     </div>

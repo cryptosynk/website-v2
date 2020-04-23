@@ -40,14 +40,14 @@ function Header() {
             <Button onClick={HandleServices}>Services</Button>
           </li>
           <li>
-            <Button onClick={HandleTechnologies}>Technologies</Button>
+            <Button onClick={() => window.location.replace("#Technologies")}>Technologies</Button>
           </li>
           <li>
             <Button onClick={HandleContact}>Contact</Button>
           </li>
         </ul>
       </nav>
-    </div>
+    </div >
   );
 }
 
